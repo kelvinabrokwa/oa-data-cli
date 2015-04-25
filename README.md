@@ -10,7 +10,7 @@ $ npm i oa-data-cli -g
 
 ### Usage
 ```
-$ oa-dl <command> [options]
+$ oa-data-cli <command> [options]
 ```
 ```
 Commands and Options:
@@ -31,25 +31,25 @@ Commands and Options:
 List files available for download
 
 ```
-$ oa-dl ls
+$ oa-data-cli ls
 ```
 
 Download specific files. For multiple files, use a comma separated list (no spaces)
 
 ```
-$ oa-dl --file pl-slaskie
-$ oa-dl --file us-va-fairfax,us-va-greene
+$ oa-data-cli --file pl-slaskie
+$ oa-data-cli --file us-va-fairfax,us-va-greene
 ```
 
 Download all files for a specific country (identified by the ISO-2 code). For multiple countries, use a comma separated list (no spaces)
 
 ```
-$ oa-dl --country us
-$ oa-dl --country pl,kr,za
+$ oa-data-cli --country us
+$ oa-data-cli --country pl,kr,za
 ```
 
 Download all OpenAddresses CSVs
 
 ```
-$ oa-dl -a 
+$ oa-data-cli -a 
 ```
